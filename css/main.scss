@@ -1,0 +1,66 @@
+body {
+    // background: pink;
+}
+
+div {
+    display: block;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+}
+
+.rectangle {
+    background: rgb(37, 187, 224);
+    width: 100px;
+    height: 50px;
+}
+
+.circle {
+    background: rgb(134, 56, 236);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.triangle-full {
+    width: 50px;
+    border-top: 50px solid rgb(0, 89, 255);
+    border-bottom: 50px solid rgb(52, 73, 20);
+    border-left: 50px solid rgb(36, 28, 139);
+    border-right: 50px solid rgb(206, 81, 223);
+}
+
+.triangle {
+    width: 50px;
+    border-bottom: 50px solid greenyellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.trapezoid {
+    width: 150px;
+    border-bottom: 50px solid rgb(26, 28, 124);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.barrel {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 150px / 270px;
+}
+
+.log {
+    background: pink;
+    width: 50px;
+    height: 100px;
+    border-radius: 30% / 80%;
+}
+
+.part {
+    background: brown;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 150px 50px;
+    border-top-right-radius: 100px;
+}
