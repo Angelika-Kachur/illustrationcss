@@ -64,3 +64,31 @@ div {
     border-top-left-radius: 150px 50px;
     border-top-right-radius: 100px;
 }
+
+//Box shadows
+.circle {
+    width: 100px;
+    height: 100px;
+
+    &.shadow {
+        box-shadow: 10px 10px 10px black;
+    }
+
+    &.shadow-two {
+        box-shadow: 10px 10px 10px black,
+                    120px 0 0 green; //duplicate of original shape
+    }
+
+    &.shadow-three {
+        box-shadow: 10px 10px 10px black,
+                    120px 0 0 green,
+                    180px 0 0 blueviolet;
+    }
+
+    &.shadow-four {
+        box-shadow: 10px 10px 10px black,
+                    120px 0 0 green,
+                    180px 0 0 blueviolet,
+                    280px 0 0 -20px grey;
+    }
+}
