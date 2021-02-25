@@ -65,6 +65,19 @@ div {
     border-top-right-radius: 100px;
 }
 
+.face {
+    background: rgba(233, 196, 127, 0.938);
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.eye {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
 //Box shadows
 .circle {
     width: 100px;
