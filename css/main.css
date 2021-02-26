@@ -91,12 +91,17 @@ div {
 }
 
 .circle.shadow-three {
-  -webkit-box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 blueviolet;
-          box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 blueviolet;
+  -webkit-box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 pink;
+          box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 pink;
 }
 
 .circle.shadow-four {
   -webkit-box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 blueviolet, 280px 0 0 -20px grey;
           box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 blueviolet, 280px 0 0 -20px grey;
+}
+
+.circle.shadow-five {
+  -webkit-box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 blueviolet, 280px 0 0 -20px grey, 350px 0 10px -40px yellow;
+          box-shadow: 10px 10px 10px black, 120px 0 0 green, 180px 0 0 blueviolet, 280px 0 0 -20px grey, 350px 0 10px -40px yellow;
 }
 /*# sourceMappingURL=main.css.map */
