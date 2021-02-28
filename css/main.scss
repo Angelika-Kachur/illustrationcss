@@ -127,3 +127,23 @@
                 280px 0 0 -20px grey,
                 350px 0 10px -40px yellow;
 }
+
+/* Gradients */
+.cylinder {
+    width: 200px;
+    height: 400px;
+    background-image: linear-gradient(to right, pink, blue, pink, green);
+}
+
+.stripes {
+    width: 200px;
+    height: 400px;
+    background-image: repeating-linear-gradient(to right, pink, pink 20px, green 20px, green 40px);
+}
+
+.multi {
+    width: 200px;
+    height: 400px;
+    background-image: linear-gradient(to right, transparent, black), 
+                        linear-gradient(to bottom, pink, green),;
+}
