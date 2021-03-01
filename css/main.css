@@ -27,4 +27,27 @@
   background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(black)), -webkit-gradient(linear, left top, left bottom, from(pink), to(green));
   background-image: linear-gradient(to right, transparent, black), linear-gradient(to bottom, pink, green);
 }
+
+/* Pseudo Elements */
+.pseudo-elements {
+  width: 300px;
+  height: 100px;
+  background: green;
+}
+
+.pseudo-elements:before {
+  content: '';
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}
+
+.pseudo-elements:after {
+  content: '';
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: pink;
+}
 /*# sourceMappingURL=main.css.map */
